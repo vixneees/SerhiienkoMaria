@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Про себе">
+    <meta name="keywords" content="Моє хобі, програмування, CSS">
+    <title>Завдання 9</title>
+</head>
+<body bgcolor="#F7E7C2" text="#330066">
+    <font face="Montserrat">
+     <h1>
+         <p align="center">
+             <font color="#031B41">
+                 <i>Про себе</i>
+             </font>
+         </p>
+     </h1>
+     <p align="justify">Мене звати <font color="#29042E" size="4" face="Arial">Марія</font>, зараз навчаюсь в університеті. Я з харківської області, але зараз проживаю в гуртожитку. Також є <u>кандидатом в дійсні члени</u> в громадській організації <b>"Молодіжний Націоналістичний Конгрес"</b>.</p>
+     <h1>
+        <p align="center">
+           <font color="#031B41">
+            <i>Моє хобі</i>
+        </font> 
+        </p>
+    </h1>
+     <h2>Програмування</h2>
+     <pre>
+<font color="#478ecd">namespace Task7</font>
+{
+    <font color="#478ecd">public partial class</font> <font color="#45ab7f">Form1 : Form</font>
+    {
+        <font color="#478ecd">public</font> <font color="#45ab7f">Form1()</font>
+        {
+            <font color="#cbc586">InitializeComponent();</font>
+        }
+
+        <font color="#478ecd">private void</font> <font color="#cbc586">button1_Click</font>(<font color="#478ecd">object</font> <font color="#81cbec">sender</font>, <font color="#45ab7f">EventArgs</font> <font color="#81cbec">e</font>)
+        {
+            <font color="#478ecd">string</font> <font color="#81cbec">s</font>;
+
+            <font color="#81cbec">s</font> = textBox1.Text;
+
+            <font color="#81cbec">s</font> = <font color="#81cbec">s</font>.<font color="#cbc586">Replace</font>(" ", ", ");
+
+            label2.Text = <font color="#81cbec">s</font>;
+        }
+    }
+}
+    </pre>
+    </font>
+</body>
+</html>
